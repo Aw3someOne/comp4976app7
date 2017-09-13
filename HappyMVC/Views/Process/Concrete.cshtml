@@ -1,0 +1,14 @@
+﻿@model  IEnumerable<System.Diagnostics.Process>
+@{
+    ViewBag.Title = "Concrete";
+}
+
+<h2>Concrete</h2>
+
+<ul>
+    @foreach (var i in Model)
+    {
+        <li>@Html.ActionLink(i.ProcessName, "Details", new { id = i.Id })</li>
+        @*<li>@i.ProcessName</li>*@
+    }
+</ul>

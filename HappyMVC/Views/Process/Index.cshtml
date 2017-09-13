@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var processes = ViewBag.CurrentProcesses as System.Diagnostics.Process[];
+}
+
+<h2>Index</h2>
+
+<ul>
+    @foreach (var i in processes)
+    {
+        <li>@i.ProcessName</li>
+    }
+    
+</ul>
