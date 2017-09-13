@@ -151,6 +151,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TextFiles\File1.txt" />
+    <Content Include="TextFiles\File10.txt" />
+    <Content Include="TextFiles\File2.txt" />
+    <Content Include="TextFiles\File3.txt" />
+    <Content Include="TextFiles\File4.txt" />
+    <Content Include="TextFiles\File5.txt" />
+    <Content Include="TextFiles\File6.txt" />
+    <Content Include="TextFiles\File7.txt" />
+    <Content Include="TextFiles\File8.txt" />
+    <Content Include="TextFiles\File9.txt" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -197,7 +207,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="TextFiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
